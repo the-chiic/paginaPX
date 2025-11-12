@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    max-width: 1476px;
+    background-color: white;    /*Color del fondo*/
+    font-family: "Poppins", sans-serif;
+    margin: 0 auto;     /*Para centrar cajas*/
+    font-size: 16px;
+}
+
+header{
+    background-color: rgb(24, 75, 77);
+    text-align: center;     /*Alineado al centro el texto*/
+}
+
+#title{
+    padding: 1.35% 0px 1.35% 0px;     /*Padding arriba y abajo se puede poner también padding: 20px 0px*/
+    color: white;
+}
+
+nav{
+    background-color: rgb(245, 210, 158);
+    padding: 1.35% 0px 1.35% 0px;
+    font-size: 1.2rem;
+}
+
+#list-box{
+    padding: 0;
+}
+
+#list-box li{
+    list-style: none;
+    display: inline-block;  /*Pone los enlaces en horizontal*/
+}
+
+#inicio{
+    padding: 0px 14.22%;
+    width: 6.77%;       /*Tamaño que ocupa*/
+}
+
+#news{
+    padding-right: 14.22%;
+    width: 6.77%;       /*Tamaño que ocupa*/
+}
+
+#board{
+    padding-right: 14.22%;   /*Padding solo a la derecha*/
+    width: 5.42%;
+}
+
+#form{
+    padding-right: 14.22%;
+    width: 8.80%;
+}
+
+.nav-a{
+    background-color: rgb(245, 210, 158);
+    color: black;
+    padding: 0.33%;   /*Pading en todos lados a 5px*/
+    font-weight: bold;  /*Negrita*/
+    text-decoration: none;  /*Quitar línea de subrayado*/
+    transition: color 0.3s, background-color 0.3s;  /*Tiempo que tarda en hacer la animación*/
+}
+
+.nav-a:hover{       /*Para hacer animaciones*/
+    background-color: aliceblue;
+}
+
+main{
+    background-color: cadetblue;
+    margin: 3.38% 3.38%;
+    border: solid 1px black;
+    border-radius: 10px;
+    color: aliceblue;
+    text-align: justify;
+    display: flow-root;
+}
+
+aside{
+    width: 20.71%;
+    float: left;    /*Flotado a la izquierda*/
+    background-color: rgb(245, 210, 158);
+    padding: 20px;
+    margin: 3.63%;
+    border: solid 1px black;
+    border-radius: 10px;
+    color: black;
+    text-align: justify;
+    position: relative;
+}
+
+#img-aside{
+    display: block;
+    width: 87.71%;
+    margin: 0 auto;
+    border-radius: 30px;    /*Bordes redondeados*/
+}
+
+h2{
+    color: black;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+aside h2{
+    padding-left: 5.96%;
+    margin: 5.26% 0px 3.50% 0px;
+}
+
+aside p{
+    padding: 0px 5.96%;
+    margin-bottom: 14.03%;
+}
+
+h3{
+    color: black;
+    text-align: left;
+}
+
+#enlace{
+    position: absolute;
+    left: 11.57%;
+    bottom: 0px;
+}
+
+#enlaceA{
+    background-color: transparent;          /*Quita el fondo*/
+    transition: color 0.3s;
+}
+
+#enlaceA:hover{
+    text-decoration: underline;
+}
+
+section{
+    width: 60%;
+    float: left;
+}
+
+#titleForm{
+    margin-top: 4.70%;
+}
+
+form{
+    color: black;
+    background-color: rgb(181, 222, 223);
+    width: 76.38%;
+    margin: 4.70% auto;
+    padding: 5.87% 11.75%;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+input{
+    margin-bottom: 2.35%;
+}
+
+input[type="text"]{
+    color: blue;
+    padding-left: 1.17%;
+}
+
+input[name="age"]{
+    width: 3.52%;
+}
+
+#sendButton{
+    width: 96.38%;
+}
+
+/*Se agranda al tamaño que le ponga mientras quepa en la caja contenedora, si aumento el tamaño se desborda*/
+
+footer{
+    width: 100%;
+    padding: 1.35% 0px;
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    clear: both;        /*Limpio todos los float*/
+    text-align: center;
+}
